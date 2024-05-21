@@ -17,3 +17,4 @@ npx nodemon
 npm install nunjucks
 $npm install --save sequelize
 $npm install --save sqlite3
+npm install @faker-js/faker --save-dev
