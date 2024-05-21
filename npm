@@ -17,9 +17,14 @@ npx nodemon
 npm install nunjucks
 $npm install --save sequelize
 $npm install --save sqlite3
-npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+
 npm install --save-dev sequelize-cli
-npm sequelize-cli init
+npx sequelize-cli init
+npx sequelize-cli model:generate --name Post --attributes id:integer,title:string,body:string
+npx sequelize-cli db:migrate
+npx sequelize-cli seed:generate --name demo-posts
+npx sequelize-cli db:seed:all
+
 npm install @faker-js/faker --save-dev
 import { faker } from '@faker-js/faker';
 const randomName = faker.person.fullName(); // Rowan Nikolaus
