@@ -1,0 +1,19 @@
+
+
+
+... MINGW64 ~/ta22e
+$ winget install github.cli
+gh login
+gh repo create
+ls
+npm i express
+node index.js
+//-->... on port http://localhost:3000
+
+npm install -g nodemon
+npm install --save-dev nodemon
+npm i -D nodemon
+npx nodemon
+npm install nunjucks
+$npm install --save sequelize
+$npm install --save sqlite3
